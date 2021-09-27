@@ -108,7 +108,7 @@ footer i:hover {
 
 #bodyGaleria img:hover {
   box-shadow: 3px 3px 25px 1px black;
-  transform: rotate(6deg);
+  transform: rotate(5deg);
   cursor: pointer; }
 
 #bodyContacto {
