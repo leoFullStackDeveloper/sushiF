@@ -1,0 +1,50 @@
+
+#bodyContacto{
+    background-image: url(../images/backs/jap3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    h1{
+        background-color: rgba(138, 72, 17, 0.3);
+        padding: 20px;
+    }
+}
+
+legend{
+    margin-bottom: 15px;
+    font-size: 2rem;
+}
+form{
+    // background-color: rgb(170, 100, 9);
+    background-color: $mainDark;
+    padding: 20px;
+    border-radius: 15px;
+}
+#botonBorrar {
+    padding: 3px 25px;
+    font-size: 1.2rem;
+    background-color:black;
+    color: orange;    
+    border-radius: 10px;
+    display: block;
+}
+#botonBorrar:hover {
+    background-color: orange;
+    color: black;
+}
+#botonEnviar{
+    padding: 8px 10px;
+    background-color: black;
+    font-size: 2rem;
+    border-radius: 10px;
+    color: white;
+    width: 45%;
+    margin-top: 5%;
+}
+#botonEnviar:hover{
+    background-color: orange;
+    color: black;
+}
+#terminos{
+    width: 50px;
+}

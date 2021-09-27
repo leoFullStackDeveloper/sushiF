@@ -1,0 +1,22 @@
+footer{
+    background-color: rgb(15, 8, 1);
+    padding: 4%;
+    width: 100%;
+    margin-top: 3%;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+}
+footer p{
+    margin-top: 10px;
+}
+ footer i{
+    // color: rgb(190, 110, 5);
+    color: $mainColor;
+    font-size: 4rem;
+    margin-left: 20px;
+}
+footer i:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}

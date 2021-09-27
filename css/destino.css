@@ -1,0 +1,158 @@
+* {
+  margin: 0%;
+  border: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+.container-fluid {
+  padding: 0%;
+  margin: 0%; }
+
+body {
+  font-family: 'Poiret One', cursive;
+  font-weight: bold; }
+
+nav {
+  background: #af2e23;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #af2e23 0%, #dd7423 25%, #dd7423 49%, #f2892e 69%, #f7c785 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #af2e23 0%, #dd7423 25%, #dd7423 49%, #f2892e 69%, #f7c785 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #af2e23 0%, #dd7423 25%, #dd7423 49%, #f2892e 69%, #f7c785 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#af2e23', endColorstr='#f7c785',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+  padding: 20px; }
+
+nav #logo {
+  width: 80px;
+  background-color: white;
+  border-radius: 50%;
+  border: 4px solid #610808; }
+
+nav #logo:hover {
+  transform: rotate(180deg);
+  background-color: black; }
+
+nav .fa-bars {
+  font-size: 2rem; }
+
+.nav-item {
+  list-style: none;
+  font-size: 1.8rem; }
+
+.nav-link {
+  color: white;
+  text-decoration: none; }
+
+.nav-link:hover {
+  background-color: black;
+  color: #eeff00;
+  border-radius: 5px; }
+
+footer {
+  background-color: #0f0801;
+  padding: 4%;
+  width: 100%;
+  margin-top: 3%;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem; }
+
+footer p {
+  margin-top: 10px; }
+
+footer i {
+  color: #e29420;
+  font-size: 4rem;
+  margin-left: 20px; }
+
+footer i:hover {
+  transform: scale(1.5);
+  cursor: pointer; }
+
+#bodyIndex {
+  background: rgba(0, 0, 0, 0.664);
+  color: #e7e0e0; }
+  #bodyIndex main {
+    text-align: center;
+    padding: 0%;
+    text-shadow: 3px 3px 2px #969696; }
+    #bodyIndex main img {
+      border-radius: 15px; }
+
+#bodyNosotros {
+  background-image: url(../images/backs/r3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  #bodyNosotros main {
+    background-color: rgba(49, 25, 5, 0.767);
+    border-radius: 15px; }
+
+#nosotrosContainer ul li {
+  display: block;
+  margin-top: 10px;
+  text-align: center; }
+
+#mainNosotros ul li {
+  color: #e7e0e0;
+  font-weight: bolder; }
+
+#nosotrosUl li {
+  text-transform: uppercase; }
+
+#bodyGaleria main img {
+  border-radius: 15px; }
+
+#bodyGaleria img:hover {
+  box-shadow: 3px 3px 25px 1px black;
+  transform: rotate(6deg);
+  cursor: pointer; }
+
+#bodyContacto {
+  background-image: url(../images/backs/jap3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+  #bodyContacto h1 {
+    background-color: rgba(138, 72, 17, 0.3);
+    padding: 20px; }
+
+legend {
+  margin-bottom: 15px;
+  font-size: 2rem; }
+
+form {
+  background-color: #bd5d03;
+  padding: 20px;
+  border-radius: 15px; }
+
+#botonBorrar {
+  padding: 3px 25px;
+  font-size: 1.2rem;
+  background-color: black;
+  color: orange;
+  border-radius: 10px;
+  display: block; }
+
+#botonBorrar:hover {
+  background-color: orange;
+  color: black; }
+
+#botonEnviar {
+  padding: 8px 10px;
+  background-color: black;
+  font-size: 2rem;
+  border-radius: 10px;
+  color: white;
+  width: 45%;
+  margin-top: 5%; }
+
+#botonEnviar:hover {
+  background-color: orange;
+  color: black; }
+
+#terminos {
+  width: 50px; }

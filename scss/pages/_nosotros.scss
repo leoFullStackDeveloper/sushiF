@@ -1,0 +1,22 @@
+#bodyNosotros{
+    background-image: url(../images/backs/r3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    main{
+       background-color: rgba(49, 25, 5, 0.767);
+       border-radius: 15px;
+   }
+}
+#nosotrosContainer ul li{
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+#mainNosotros ul li{
+    color: $whitePersonal;
+    font-weight: bolder;
+}
+#nosotrosUl li{
+    text-transform: uppercase;
+}
